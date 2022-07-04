@@ -1,41 +1,67 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
-h1{
-    font-size:50px;
+h1 {
+  font-size: 50px;
 }
-.green{
-    color: green;
+h2{
+    font-size:35px;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
+.green {
+  color: green;
 }
-.half-width{
-    width:50%;
-    padding-left:10%;
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
 }
-.half-width img{
-width:70%;
+.half-width {
+  width: 50%;
+  padding-left: 10%;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(rgb(126, 229, 126),rgb(3, 107, 3));
-    color: white;
-    font-weight: 700;
-    padding:10px 40px;
-    border-radius: 5px;
+.half-width img {
+  width: 70%;
 }
-.top-banner{
-    background-image:url(images/half-circle.jpg);
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(126, 229, 126), rgb(3, 107, 3));
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+.top-banner {
+  background-image: url(images/half-circle.jpg);
+  background-repeat: no-repeat;
+}
+.dream-big {
+  padding-right: 10%;
+  background-image: url(images/2green.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 20rem;
+}
+.experience{
+    background-image: url(images/2circles.jpg);
     background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item {
+  box-shadow: 10px 15px 35px rgb(179, 218, 102);
+  border-radius:10px;
+  width:40%;
+  margin-left: 7%;
+  margin-right:5%;
+  padding: 20px;
+  
+}
+#left-border1{
+    border-left: 7px solid rgb(89, 145, 89);
+}
+#left-border2{
+    border-left: 7px solid rgb(4, 103, 4);
+}
+footer p{
+    text-align: center;
 
-}
-.dream-big{
-    padding-right: 10%;
-    background-image: url(images/2green.jpg);
-    background-repeat: no-repeat;
-    background-position:right center;
-    background-size:20rem;
 }
